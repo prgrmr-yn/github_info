@@ -16,8 +16,8 @@ const fetchUsers = (userInfo) => {
     const users = `<li class = "list-inline-item">
       <img src = "${data.avatar_url}">
       <p>${name}</p>
-      <p>Followers: ${data.followers} Following: ${data.following}</p>
-      <p>Following: </p>
+      <p>Followers: ${data.followers}---Following: ${data.following}</p>
+      <p>Public Repos: ${data.public_repos}</p>
 
       </li>`
       list.insertAdjacentHTML('beforeend', users)
