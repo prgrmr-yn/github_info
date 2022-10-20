@@ -20,8 +20,12 @@ const fetchUsers = (userInfo) => {
       <p>Public Repos: ${data.public_repos}</p>
 
       </li>`
-      list.insertAdjacentHTML('beforeend', users)
-    // data.forEach(e => {
+      if (data.avatar_url !== undefined){
+        list.insertAdjacentHTML('beforeend', users)
+      }else{
+        alert('couldnot find the user')
+      }
+      // data.forEach(e => {
     //   // console.log(e);
     //   const users = `<li class = "list-inline-item">
     //   <img src = "${e.avatar_url}">
