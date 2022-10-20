@@ -6,14 +6,18 @@ const fetchUsers = (userInfo) => {
   fetch(`https://api.github.com/users/${userInfo}`)
    .then(response => response.json())
    .then(data => {
-    if (data.length === 1) {
-      console.log('hello');
+    let name = ''
+    if (data.name === null){
+      alert("Your name is not set on github, so i am gonna show you your username")
+      name = data.login
+    }else{
+      name = data.name
     }
     const users = `<li class = "list-inline-item">
       <img src = "${data.avatar_url}">
-      <p>${data.login}</p>
-      <p>Followers: ${data.followers}</p>
-      <p>Following: ${data.following}</p>
+      <p>${name}</p>
+      <p>Followers: ${data.followers} Following: ${data.following}</p>
+      <p>Following: </p>
 
       </li>`
       list.insertAdjacentHTML('beforeend', users)
