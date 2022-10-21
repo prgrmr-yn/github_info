@@ -1,6 +1,5 @@
 const list = document.querySelector('#results');
 const form = document.querySelector('#search-form');
-console.log(form);
 
 const fetchUsers = (userInfo) => {
   fetch(`https://api.github.com/users/${userInfo}`)
@@ -38,6 +37,8 @@ const fetchUsers = (userInfo) => {
 // fetchUsers()
 form.addEventListener('submit', (e) =>{
   e.preventDefault();
-  const userInfo = e.currentTarget.querySelector('.form-control').value;
-  fetchUsers(userInfo)
+  let userInfo = e.currentTarget.querySelector('.form-control');
+  list.innerHTML = '';
+  fetchUsers(userInfo.value);
+  userInfo.value = '';
 });
