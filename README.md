@@ -37,7 +37,7 @@ cd github-profile-app
 code .
 ```
 
-4. Once you are in visual studio, download an extension called live server and open the liver seriver or simply enter open index.html on your terminal
+4. Once you are in visual studio, download an extension called live server and open the live server or simply enter open index.html on your terminal
 
 Technologies Used
 The GitHub Profile Information App is built using the following technologies:
