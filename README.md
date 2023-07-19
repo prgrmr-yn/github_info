@@ -26,6 +26,8 @@ Front-end: HTML, CSS, JavaScript, render
 
 ## How to Use
 
+Go to URL: https://gh-chech.onrender.com/ or download in your local repo
+
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
 ```bash
