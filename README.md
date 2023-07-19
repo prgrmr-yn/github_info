@@ -1,6 +1,6 @@
 # GitHub Profile Information App
 
-![GitHub Profile](https://avatars.githubusercontent.com/u/108704161?v=4)
+![GitHub Profile](image.png)
 
 ## Overview
 
