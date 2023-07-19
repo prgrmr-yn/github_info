@@ -1,4 +1,3 @@
-# github_info
 # GitHub Profile Information App
 
 ![GitHub Profile](https://avatars.githubusercontent.com/u/108704161?v=4)
@@ -6,6 +5,12 @@
 ## Overview
 
 The GitHub Profile Information App is a simple and user-friendly application designed to provide you with essential information about your GitHub profile. With just a few clicks, you can access details such as your profile image, profile name, the number of repositories you own, and the number of people you are following as well as your followers.
+
+## Technologies Used
+The GitHub Profile Information App is built using the following technologies:
+
+Front-end: HTML, CSS, JavaScript, render
+
 
 ## Features
 
@@ -39,10 +44,6 @@ code .
 
 4. Once you are in visual studio, download an extension called live server and open the live server or simply enter open index.html on your terminal
 
-Technologies Used
-The GitHub Profile Information App is built using the following technologies:
-
-Front-end: HTML, CSS, JavaScript
 
 
 **Contributions:**
