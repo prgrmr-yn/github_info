@@ -26,12 +26,13 @@ Front-end: HTML, CSS, JavaScript, render
 
 ## How to Use
 
-Go to URL: https://gh-chech.onrender.com/ or download in your local repo
+Go to URL: https://gh-chech.onrender.com/, fork or download in your local repo.
+Please star if you like :)
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/github-profile-app.git
+git clone https://github.com/prgrmr-yn/github_info.git
 ```
 2. **Go to folder you downloaded**
    
