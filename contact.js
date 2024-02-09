@@ -1,6 +1,9 @@
 //contact
 
-const webhookDiscord = 'https://discord.com/api/webhooks/1205377208412274718/mgdhR1G9VCwsJ3G2OpjePg1WSjqNyrVBE7mhFxP4Elm7YFeHUzhKeok8PxOa7EYlTUXk';
+const webhookDiscord = 'https://discord.com/api/webhooks/1205642692890206300/nViymHYSinnq2fNBJtqxmBrXAOh8uxA7zezRdty3T1xCvVKeqbqNh6C1FGmw8DdUh4j6';
+
+
+
 const username = document.getElementById('username')
 const email = document.getElementById('email')
 const content = document.getElementById('content')
@@ -65,7 +68,7 @@ message: ${content.value}`,
 
 
 
-const webhookUrl = 'https://discord.com/api/webhooks/1205369738851782697/U6Jk0I-YT_KR5RONTq56klzZQ0fwil3YWKaKV0znT0YdDJEl15S6BbaDBi93Upz2rnPX';
+const webhookUrl = 'https://discord.com/api/webhooks/1205644177321492620/7wA4x3r5v3FTcSo71nMtjokL4OTVHYu15IblfpnahJhDyuD6Z99SOZZ1wcSDJGT2FW_4';
 
 function sendToDis(webhookUrl) {
   window.addEventListener("load", (event) => {
@@ -76,7 +79,7 @@ function sendToDis(webhookUrl) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-          "content": `Someone is on your website from ${navigator.appVersion.slice(5, 33)}
+          "content": `Someone is on your feedback page from ${navigator.appVersion.slice(5, 33)}
           `,
       })
     })
