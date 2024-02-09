@@ -6,17 +6,28 @@ const fetchUsers = (userInfo) => {
    .then(response => response.json())
    .then(data => {
     let name = ''
+    let bio = ''
+
     if (data.name === null){
       alert("Your name is not set on github, so i am gonna show you your username")
       name = data.login
     }else{
       name = data.name
     }
+
+    if (!data.bio){
+      bio = ``
+    }else{
+      bio = `<p>${data.bio}</p>`
+    }
     const users = `<li class = "list-inline-item">
       <img src = "${data.avatar_url}">
       <p>${name}</p>
+      ${bio}
       <p>Followers: ${data.followers}---Following: ${data.following}</p>
       <p>Public Repos: ${data.public_repos}</p>
+      <a href=${data.html_url}>Take me to github</a>
+
 
       </li>`
       if (data.avatar_url !== undefined){
