@@ -1,6 +1,6 @@
 //contact
 
-const webhookDiscord = 'https://discord.com/api/webhooks/1205642692890206300/nViymHYSinnq2fNBJtqxmBrXAOh8uxA7zezRdty3T1xCvVKeqbqNh6C1FGmw8DdUh4j6';
+const webhookDiscord = 'https://discord.com/api/webhooks/1351854326309720179/WQ-JEtWgdunSpjN0btozuCcIWg-28OqCoFsCdFTS00ojtA7bG5WiXqeNSeKD2ia8rZ5H';
 
 
 
